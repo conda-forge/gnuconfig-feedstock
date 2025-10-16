@@ -1,5 +1,5 @@
 {% set name = "gnuconfig" %}
-{% set version = "2020.11.07" %}
+{% set version = "2025.07.09" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   git_url: https://git.savannah.gnu.org/r/config.git
-  git_rev: 77632d92f25e26b95c64afd3700d51bd03587613
+  git_rev: a2287c3041a3f2a204eb942e09c015eab00dc7dd
 
 build:
   noarch: generic
